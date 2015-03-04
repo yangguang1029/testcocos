@@ -3,6 +3,7 @@
 #include "TestScrollTable.h"
 #include "testRender.h"
 #include "testOther.h"
+#include "testTransparentHole.h"
 
 USING_NS_CC;
 
@@ -37,7 +38,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 //    layer->autorelease();
     
 //    scene->addChild(layer);
-    auto scene = TestOther::createScene();
+//    auto scene = TestOther::createScene();
+    auto scene = TestTransparentHole::createScene();
 
     // run
     director->runWithScene(scene);

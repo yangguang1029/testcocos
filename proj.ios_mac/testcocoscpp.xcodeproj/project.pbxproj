@@ -23,6 +23,8 @@
 		06FAD6121AA07C3000B5F069 /* colorline.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 06FAD6101AA07C3000B5F069 /* colorline.vsh */; };
 		06FAD6131AA07C3000B5F069 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FAD6111AA07C3000B5F069 /* TemplateIcon2x.png */; };
 		06FAD6151AA09C7C00B5F069 /* colorline.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 06FAD6141AA09C7C00B5F069 /* colorline.fsh */; };
+		06FAD6191AA5520F00B5F069 /* testTransparentHole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FAD6171AA5520F00B5F069 /* testTransparentHole.cpp */; };
+		06FAD61D1AA55D4900B5F069 /* transhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FAD61C1AA55D4900B5F069 /* transhole.png */; };
 		1AC6FB1F180E996B004C840B /* libbox2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFF180E9839004C840B /* libbox2d Mac.a */; };
 		1AC6FB20180E996B004C840B /* libchipmunk Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFD180E9839004C840B /* libchipmunk Mac.a */; };
 		1AC6FB21180E996B004C840B /* libcocos2dx Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2dx Mac.a */; };
@@ -251,6 +253,9 @@
 		06FAD6101AA07C3000B5F069 /* colorline.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = colorline.vsh; sourceTree = "<group>"; };
 		06FAD6111AA07C3000B5F069 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 		06FAD6141AA09C7C00B5F069 /* colorline.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = colorline.fsh; sourceTree = "<group>"; };
+		06FAD6171AA5520F00B5F069 /* testTransparentHole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testTransparentHole.cpp; path = ../Classes/testTransparentHole.cpp; sourceTree = "<group>"; };
+		06FAD6181AA5520F00B5F069 /* testTransparentHole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testTransparentHole.h; path = ../Classes/testTransparentHole.h; sourceTree = "<group>"; };
+		06FAD61C1AA55D4900B5F069 /* transhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transhole.png; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
@@ -384,6 +389,8 @@
 				063F412D1A70ED6800FE6316 /* testRender.h */,
 				06FAD60B1AA0568000B5F069 /* testOther.cpp */,
 				06FAD60C1AA0568000B5F069 /* testOther.h */,
+				06FAD6171AA5520F00B5F069 /* testTransparentHole.cpp */,
+				06FAD6181AA5520F00B5F069 /* testTransparentHole.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -499,6 +506,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				06FAD61C1AA55D4900B5F069 /* transhole.png */,
 				06C437021A68FAF1001A3072 /* Shaders */,
 				06C436FD1A68F98C001A3072 /* fuck.png */,
 				06B5B8011A5BD6B200703B73 /* emo.plist */,
@@ -699,6 +707,7 @@
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
+				06FAD61D1AA55D4900B5F069 /* transhole.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				06E2911C1A53FB71007F32D9 /* CloseSelected1.png in Resources */,
 				06FAD6121AA07C3000B5F069 /* colorline.vsh in Resources */,
@@ -737,6 +746,7 @@
 			files = (
 				06FAD60D1AA0568000B5F069 /* testOther.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				06FAD6191AA5520F00B5F069 /* testTransparentHole.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
